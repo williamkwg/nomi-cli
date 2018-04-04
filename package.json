@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "为node框架nomi打造的cli工具",
   "main": "bin/index.js",
+  "bin": {
+    "init": "bin/init.js"
+  },
   "scripts": {
     "test": "nomi test"
   },
@@ -11,8 +14,15 @@
     "url": "git@gitlab.corp.qunar.com:fe/nomi-cli.git"
   },
   "keywords": [
+    "nomi",
     "nomi-cli"
   ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "author": "weiguo.kong@qunar.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
 }
