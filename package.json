@@ -2,9 +2,9 @@
   "name": "nomi-cli",
   "version": "1.0.0",
   "description": "为node框架nomi打造的cli工具",
-  "main": "bin/index.js",
+  "main": "lib/index.js",
   "bin": {
-    "init": "bin/init.js"
+    "nomi": "bin/nomi.js"
   },
   "scripts": {
     "test": "nomi test"
@@ -23,6 +23,10 @@
   "author": "weiguo.kong@qunar.com",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.15.1"
+    "async": "^2.6.0",
+    "babel-runtime": "^6.26.0",
+    "colors": "^1.2.1",
+    "commander": "^2.15.1",
+    "fs": "0.0.1-security"
   }
 }
