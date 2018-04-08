@@ -4,7 +4,6 @@
   "description": "为node框架nomi打造的cli工具",
   "main": "lib/index.js",
   "bin": {
-    "nomi": "bin/nomi.js"
   },
   "scripts": {
     "test": "nomi test",
