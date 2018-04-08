@@ -19,7 +19,7 @@ module.exports = {
   "security": { // 安全性
     "csrf": {
       "enable": false
-    },
+    }
   },
   "db": {
     "common": {},
