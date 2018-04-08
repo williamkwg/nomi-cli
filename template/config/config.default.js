@@ -1,9 +1,9 @@
 module.exports = {
   "name": "",
   "key": "",
-  "description": "",
+  "desc": "",
   "author": "",
-  "version": "",
+  "version": "1.0.0",
   "prot": "8080",
   "workers": 4,
   "multipart": {
