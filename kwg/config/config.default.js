@@ -1,8 +1,8 @@
 module.exports = {
-  "name": "",
-  "key": "",
-  "desc": "",
-  "author": "",
+  "name": "kwg",
+  "key": "fdsf",
+  "desc": "sdfds",
+  "author": "fsd",
   "version": "1.0.0",
   "prot": "8080",
   "workers": 4,

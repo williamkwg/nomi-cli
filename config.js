@@ -1,16 +1,20 @@
 module.exports = {
-  INIT: {
-    name: {
+  INIT: [
+    {
+      key: 'name',
       desc: '请输入工程名称:'
     },
-    author: {
+    {
+      key: 'author',
       desc: '请输入工程作者:'
     },
-    key: {
+    {
+      key: 'key',
       desc: '请输入工程唯一键值:'
     },
-    desc: {
+    {
+      key: 'desc',
       desc: '请输入工程描述:'
     }
-  }
+  ]
 }
