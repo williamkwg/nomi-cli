@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "为node框架nomi打造的cli工具",
   "main": "lib/index.js",
-  "bin": {},
+  "bin": {
+    "nomi": "bin/nomi.js"
+  },
   "scripts": {
     "test": "nomi test",
     "compile": "babel --presets es2015,stage-0 -d lib/ bin/"
