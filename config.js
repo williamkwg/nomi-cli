@@ -13,7 +13,7 @@ module.exports = {
       desc: '请输入工程唯一键值:'
     },
     {
-      key: 'desc',
+      key: 'description',
       desc: '请输入工程描述:'
     }
   ]

@@ -1,7 +1,7 @@
 module.exports = {
   "name": "@name",
   "key": "@key",
-  "desc": "@desc",
+  "description": "@description",
   "author": "@author",
   "version": "1.0.0",
   "prot": "8080",
