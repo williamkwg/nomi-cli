@@ -1,6 +1,6 @@
 {
   "name": "nomi-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "为node框架nomi打造的cli工具",
   "main": "lib/index.js",
   "bin": {
