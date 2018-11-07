@@ -1,10 +1,10 @@
 {
   "name": "nomi-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "为node框架nomi打造的cli工具",
   "main": "lib/index.js",
   "bin": {
-    "nomi": "bin/nomi.js"
+    "nomi-cli": "bin/nomi-cli.js"
   },
   "scripts": {
     "test": "nomi test",
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "nomi",
-    "nomi-cli"
+    "nomi-cli",
+    "nomi-cli init"
   ],
   "engines": {
     "node": ">=8.0.0"
