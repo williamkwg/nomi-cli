@@ -4,13 +4,20 @@
   "description": "@description",
   "author": "@author",
   "scripts": {
-    "test": ""
+    "build": "babel --watch app.js -o app.index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --inspect app.index.js"
   },
+  "main": "./app.js",
   "keywords": [
   ],
   "license": "ISC",
   "dependencies": {
+    "nomi-core": "^1.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5"
   }
 }
