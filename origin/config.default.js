@@ -4,7 +4,7 @@ module.exports = {
   "description": "@description",
   "author": "@author",
   "version": "1.0.0",
-  "prot": "8080",
+  "port": "8080",
   "workers": 4,
   "multipart": {
     "fileExtensions": [ '.xlsx', '.xls' ]
@@ -21,23 +21,8 @@ module.exports = {
       "enable": false
     }
   },
-  "db": {
-    "common": {},
-    "client": {
-        "name": "",
-        "type": "mysql",
-        "host": "10.86.48.32",
-        "port": "3306",
-        "user": "",
-        "password": "",
-        "database": "",
-        "app": true,
-        "connectionLimit": 4 
-    }
-  },
-  "controllerDir": "app/controller",
-  "logDir": "logs",
-  "serviceDir": "app/service",
+  "controllerDir": ["app/controller"],
+  "serviceDir": ["app/service"],
   "middlewareDir": "app/middleware",
   "pluginDir": "app/plugin"
 };
