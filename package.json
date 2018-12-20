@@ -12,7 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.corp.qunar.com:fe/nomi-cli.git"
+    "url": "https://github.com/williamkwg/nomi-cli.git",
+    "innerurl": "git@gitlab.corp.qunar.com:fe/nomi-cli.git"
   },
   "keywords": [
     "nomi",
