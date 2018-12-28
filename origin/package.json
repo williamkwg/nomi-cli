@@ -13,7 +13,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "nomi-core": "^1.10.0"
+    "nomi": "^0.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
